@@ -1,6 +1,13 @@
-<meta name="description" content="Comentários" />
-<meta charset="UTF-8">
+<meta name="description" content="Comentários"/>  <!--utilizada para definir a descrição de uma página, a qual aparece na hora da busca pelo site no navegador-->
+
+<meta charset="UTF-8"> <!--A tag charset é utilizada para definir o conjunto de caracteres de uma página, e por vezes resolve problemas como a exibição incorreta de caracteres-->
+
 <meta name="robots" content="noindex, nofollow">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
-<title>Tech News - Notí­cias do dia</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1"> <!--utilizada para definir o conteúdo da página seja exibido corretamente na tela de um dispositivo qualquer,
+independente do tamanho que for-->
+
+<link rel="stylesheet" href="style.css"> <!-- o termo LINK REL= "STYLESHEET" e ADICIONAMOS EM SEGUIDA A PALAVRA HREF=NOME DA PAGINA EM .CSS e é utilizado para lincar o HTML com o CSS para a estilização da página -->
+
+
+<title>Tech News - Notí­cias do dia</title> <!--utilizada para definir o titulo da página-->
