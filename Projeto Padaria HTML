@@ -56,3 +56,83 @@
     </div>
     </body>
 </html>
+
+
+------------------------
+
+body {
+    background-color: #f4f0e5;
+}
+
+hr { 
+    color:#de8e37;
+    margin: 0px 270px;
+}
+
+.logo-principal .logotipo {
+    height: 230px ;
+    width: 250px;
+    margin-left: 612px
+}
+
+a, .alinhar-texto {
+    text-align: center;
+    text-decoration: bold;
+    color: black;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
+
+.texto-meio {
+    text-align: center;
+}
+
+span {
+    font-size: 29px;
+    color: #de8e37;
+}
+
+.img-produtos{
+    margin: 0px 220px 0px;
+    height: 300px;
+    width: 800px;
+}
+
+.parte-laranja {
+    background-color: #de8e37;
+    color: white;
+    text-align: center;
+    margin: 0px 350px auto;
+    word-spacing: normal;
+    line-height: normal;
+}
+
+.fotodospaes {
+    height: 300px;
+    width: 500px;
+}
+
+.fotodosbolos {
+    height: 300px;
+    width: 500px;
+    padding-bottom: 13px;
+}
+
+.parte-final {
+    color: black;
+    text-align: center;
+}
+
+span {
+    color: black;
+    font-weight: 20px;
+}
+
+.cor-laranja {
+    color: #de8e37;
+}
+
+.destaque-laranja {
+    color:#de8e37;
+    font-size: 20px;
+}
