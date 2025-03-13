@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, nofollow">
+    <link rel="stylesheet" href="padariacss.css">
+    <title>Projeto Silva</title>
+</head>
+<body>
+    
+<div class="logo-principal">
+    <img class="logotipo" src="logo.png" alt="logo da padaria" title="logotipo da padaria">
+</div>
+
+<div class="alinhar-texto">
+    <p class="alinhar-link">
+    <a href="#SOBRE">SOBRE</a>
+    <a href="#PRODUTOS">PRODUTOS</a>
+    <a href="#CONTATO">CONTATO</a>
+    </p>
+</div>
+
+    <hr>
+
+<div class="texto-meio">
+    <h1>O melhor de nossos pães e bolos para você</h1>
+    <p><span class="cor-laranja">Desde 1999, o lugar mais gostoso da cidade</span></p>
+    <img class="img-produtos" src="produtos-padaria.jpg" alt="produtos variados da padaria" title="produtos da padaria">
+</div>
+    
+
+<div class="parte-laranja">
+    <h2>Veja nossos produtos abaixo</h2>
+    <h4>Pães</h4>
+    <p>Temos um processo de fabricação 100% caseiro. Esse foi um dos <br>maiores motivos que fizeram com que a Padaria Plus crescesse com as<br>
+    proporções que temos hoje. Temos um pão único de pura qualidade.</p>
+    </p>
+    <img class="fotodospaes"  src="paes.jpg" alt="paes da padaria" title="paes">  
+    <h4>Bolos</h4>
+    <p>Uma viagem para a Itália nos fez conhecer alguns ingredientes que <br>são essenciais para que a massa do bolo fique macia e gostosa.
+        Hoje<br> temos um produto incomparável.</p>
+    </p>
+    <img  class="fotodosbolos" src="bolos.jpg" alt="bolos da padaria" title="bolos">
+</div>
+
+<div class="parte-final">
+        <h4><span>Contato</span></h4>
+        <p>Estamos localizados à Travessa Lomas Valentinas, 514 - Pedreira<br>
+        Nosso telefone: (91) <span class="destaque-laranja">98165-7007</span><br>
+        Nosso telefone: (99) <span class="destaque-laranja" >99999-9999</span><br>
+        Estamos funcionando nos seguintes horários:<br>
+        Segunda à sexta: <span class="destaque-laranja" >7h às 16h</span><br>
+        Sábados e domingos: <span class="destaque-laranja" >7h às 13h</span><br>
+        Feriados: <span class="destaque-laranja" >8h às 12h</span></p><br>
+    </div>
+    </body>
+</html>
