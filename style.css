@@ -1,0 +1,105 @@
+img {
+    width: 100px;
+    height: 50px;
+}
+
+.container1 {
+    background-color: #afddfb;
+    width: 1000px auto;
+    height: 170px;
+    text-align: center;
+    font-size: none;
+    text-decoration: none;
+}
+.imagem-1 {
+    padding-top: 20px;
+    height: 100px;
+    width: 90px;
+}
+.link-destaque {
+    text-decoration: none;
+    color: black
+}
+
+.container-destaque {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+}
+
+.imagem-banner {
+    width: 800px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.destaque-dossonhos {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.destaque-azul {
+    color: rgb(26, 26, 236)
+}
+
+.imagem-assinatura {
+    width: 230px;
+    height: 150px;
+}
+
+.destaque-paragrafo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    text-align: center;
+    padding: auto;
+}
+
+.destaque-paragrafo {
+    color: #80b4dc;
+}
+
+.destaque-terceiro {
+    background-color: #1d80c1;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding: 10px;
+}
+
+.destaque-paragrafoamarelo {
+    color: rgb(234, 234, 10);
+}
+
+.destaque-quarto {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.imagem-corretores, .destaque-azul {
+    height: 150px;
+    width: 210px;
+    color: #80b4dc;
+}
+
+.destaque-quinto {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #1d80c1;
+    width: 600px auto;
+    height: 200px;
+}
+
+.paragrafo-quinto {
+    color: white;
+    background-color: black;
+    margin-left: 300px;
+    margin-right: 310px;
+    padding: 20px;
+    border-radius: 20px 30px 20px 50px;
+}
+
+iframe {
+    width: 1000px;
+    height: 500px;
+}
