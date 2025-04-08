@@ -3,6 +3,7 @@ img {
     height: 50px;
 }
 
+
 .container1 {
     background-color: #afddfb;
     width: 1000px auto;
@@ -17,7 +18,8 @@ img {
     width: 90px;
 }
 .link-destaque {
-    text-decoration: none;
+    text-decoration:none;
+    text-transform: none;
     color: black
 }
 
@@ -90,16 +92,17 @@ img {
     height: 200px;
 }
 
-.paragrafo-quinto {
+.paragrafo-quinto h1 {
     color: white;
     background-color: black;
     margin-left: 300px;
     margin-right: 310px;
     padding: 20px;
     border-radius: 20px 30px 20px 50px;
+    font-size: 10px;
 }
 
-iframe {
-    width: 1000px;
-    height: 500px;
+.mapa {
+    width: 900px;
+    height: 300px;
 }
