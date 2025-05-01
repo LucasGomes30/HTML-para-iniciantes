@@ -139,3 +139,236 @@ pelo o que fazemos</h1>
 
 </body>
 </html>
+
+----------------------------------------------------------------------------------------
+
+
+header {
+    background-color: #3c184e;
+    width: 100%;
+    height: 120px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    padding: 30px 0px 80px;
+    margin: 0;
+  }
+  
+  nav li {
+    margin: 0px 10px;
+  }
+
+.link-container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding: 50px;
+    position: fixed;
+    right: 0px;
+    top: 0px
+}
+
+.container {
+    background-image: url("./img/banner-topo.jpg");
+    width: 100%;
+    max-width: 100%;
+    min-height: 90px;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    text-align: center;
+    text-decoration:dashed;
+    font-size: 30px;
+    color:#3c184e
+}
+
+.texto-banner {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #3c184e;
+    padding-top: 90px;
+}
+
+.telefone {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: #3c184e;
+    border: 20px solid #3c184e;
+    border-radius: 10px 20px;
+    
+}
+
+.telefone-wpp {
+    width: 30px;
+    height: 30px;
+    padding: 30px 25px auto;
+}
+
+
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    border: 20px solid #3c184e;
+    border-radius: 10px 20px auto;
+}
+
+.texto{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3c184e;
+    line-height: 40px;
+    list-style-type: none;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.texto-informativo {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3c184e;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+}
+
+.carousel {
+    position: relative;
+    width: 600px;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 13px -12px 30px -8px #3c184e;
+  }
+  
+  .carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 600px;
+  }
+  
+  .carousel-images img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+  
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background:#3c184e;
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 50%;
+  }
+  
+  .prev { left: 14px; }
+  .next { right: 14px; }
+
+li {
+    padding: 0px 90px px 90px;
+}
+
+.container-fotos {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 10px 10px 15px 15px #3c184e;
+}
+
+.redes-sociais {
+    padding: 5px;
+}
+
+.meio-de-comunicacao {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 30px 40px 0px 50px;
+    background-color: #3c184e;
+    width: auto;
+    height: 260px;
+}
+
+.icons-de-comunicacao img {
+    color: white;
+    width: 45px;
+    height: 30px;
+    padding: 0px 20px 0px 10px;
+}
+
+.container-marcas h1 {
+    color: #3c184e;
+    text-align: center;
+    display: flex;
+    justify-content:right;
+    align-items: baseline;
+    width: 100%;
+    height: 50%;
+    display: inline-block;
+}
+
+.subcontainer-marcas .marcas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 13px 0px 13px 0px;
+
+}
+
+.localizacao {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color:#3c184e;
+    font-size: 18px;
+    padding-bottom: 15px;
+    width: 100%;
+    height: 67%;
+    padding-bottom: 50px;
+}
+
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    background-color: #3c184e;
+    width: 100%;
+    height: 55px;
+    padding-top: 12px;
+}
+
+----------------------------------------------------------------------------------------
+
+let currentIndex = 0;
+
+function moveSlide(direction) {
+  const slides = document.querySelector('.carousel-images');
+  const totalSlides = slides.children.length;
+
+  currentIndex += direction;
+
+  if (currentIndex < 0) currentIndex = totalSlides = 1;
+  if (currentIndex >= totalSlides) currentIndex = 1;
+
+  slides.style.transform = `translateX(-${currentIndex * 600}px)`;
+}
+
+
