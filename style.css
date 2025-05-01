@@ -1,108 +1,178 @@
-img {
-    width: 100px;
-    height: 50px;
+
+header {
+    background-color: #3c184e;
+    width: 100%;
+    height: 120px;
 }
 
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    padding: 30px 0px 80px;
+    margin: 0;
+  }
+  
+  nav li {
+    margin: 0px 10px;
+  }
 
-.container1 {
-    background-color: #afddfb;
-    width: 1000px auto;
-    height: 170px;
-    text-align: center;
-    font-size: none;
-    text-decoration: none;
-}
-.imagem-1 {
-    padding-top: 20px;
-    height: 100px;
-    width: 90px;
-}
-.link-destaque {
-    text-decoration:none;
-    text-transform: none;
-    color: black
-}
-
-.container-destaque {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: auto;
-}
-
-.imagem-banner {
-    width: 800px;
-    height: 200px;
-    margin-top: 20px;
-}
-
-.destaque-dossonhos {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.destaque-azul {
-    color: rgb(26, 26, 236)
-}
-
-.imagem-assinatura {
-    width: 230px;
-    height: 150px;
-}
-
-.destaque-paragrafo {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: justify;
-    text-align: center;
-    padding: auto;
-}
-
-.destaque-paragrafo {
-    color: #80b4dc;
-}
-
-.destaque-terceiro {
-    background-color: #1d80c1;
-    text-align: center;
+.link-container {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
-    padding: 10px;
+    padding: 50px;
+    position: fixed;
+    right: 0px;
+    top: 0px
 }
 
-.destaque-paragrafoamarelo {
-    color: rgb(234, 234, 10);
+.container {
+    background-image: url("./img/banner-topo.jpg");
+    width: 100%;
+    max-width: 100%;
+    min-height: 90px;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    text-align: center;
+    text-decoration:dashed;
+    font-size: 30px;
+    color:#3c184e
 }
 
-.destaque-quarto {
+.texto-banner {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    text-decoration: none;
+    color: #3c184e;
+    padding-top: 90px;
 }
 
-.imagem-corretores, .destaque-azul {
-    height: 150px;
-    width: 210px;
-    color: #80b4dc;
-}
-
-.destaque-quinto {
-    text-align: center;
+.telefone {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #1d80c1;
-    width: 600px auto;
-    height: 200px;
-}
-
-.paragrafo-quinto h1 {
     color: white;
-    background-color: black;
-    margin-left: 300px;
-    margin-right: 310px;
-    padding: 20px;
-    border-radius: 20px 30px 20px 50px;
+    background-color: #3c184e;
+    border: 20px solid #3c184e;
+    border-radius: 10px 20px;
+    
+}
+
+.telefone-wpp {
+    width: 30px;
+    height: 30px;
+    padding: 30px 25px auto;
+}
+
+
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    border: 20px solid #3c184e;
+    border-radius: 10px 20px auto;
+}
+
+.texto{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3c184e;
+    line-height: 40px;
+    list-style-type: none;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.texto-informativo {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3c184e;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+}
+
+li {
+    padding: 0px 90px px 90px;
+}
+
+.container-fotos {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 10px 10px 15px 15px #3c184e;
+}
+
+.zoom{
+    width: 100%;
+    transition: transform 0.2s ease;
+}
+
+.zoom:hover {
+    transform: scale(0.9);
+
+}
+
+.meio-de-comunicacao {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 30px 40px 0px 50px;
+    background-color: #3c184e;
+    width: auto;
+    height: 260px;
+}
+
+.icons-de-comunicacao img {
+    color: white;
+    width: 45px;
+    height: 30px;
+    padding: 0px 20px 0px 10px;
+}
+
+.container-marcas h1 {
+    color: #3c184e;
+    text-align: center;
+    display: flex;
+    justify-content:right;
+    align-items: baseline;
+    width: 100%;
+    height: 50%;
+    display: inline-block;
+}
+
+.subcontainer-marcas .marcas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 13px 0px 13px 0px;
+
+}
+
+.localizacao {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color:#3c184e;
+    font-size: 18px;
+    padding-bottom: 15px;
+    width: 100%;
+    height: 67%;
+    padding-bottom: 50px;
+}
+
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
     font-size: 10px;
-}
-
-.mapa {
-    width: 900px;
-    height: 300px;
+    background-color: #3c184e;
+    width: 100%;
+    height: 55px;
+    padding-top: 12px;
 }
